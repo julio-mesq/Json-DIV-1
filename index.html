@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadasreo de Clientes</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="form-group">
+            <span>Digite o seu CEP</span>
+            <input type="number"name="edtCEP" id="edtCEP" class="form-control"
+            placeholder="Digite somente numeros" > 
+        </div>
+        <div class="form-group mt-2">
+            <span>ENDEREÇO</span>
+            <input type="text"name="edtENDERECO" id="edtENDERECO" class="form-control"
+            placeholder="Digite somente numeros"readonly>
+        <div class="form-group">
+            <span>CIDADE</span>
+            <input type="text"name="edtCIDADE" id="edtCIDADE" class="form-control"
+            placeholder="Digite somente numeros"readonly>
+        </div>
+                <span>ESTADO</span>
+                <input type="text"name="edtESTADO" id="edtESTADO" class="form-control"
+                placeholder="Digite somente numeros"readonly>
+            </div>
+            <div class="form-group">
+                <span>NUMERO</span>
+                <input type="text"name="edtNUMERO" id="edtNUMERO" class="form-control"
+                placeholder="Digite somente numeros" >
+            </div>
+        </div>
+                <button class="btn btn-outline-dark" onclick = "buscaCEP()">Busca Cep</button>
+    </div>    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+     crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
